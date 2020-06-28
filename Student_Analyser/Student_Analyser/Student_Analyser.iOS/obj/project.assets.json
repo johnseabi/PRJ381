@@ -8679,11 +8679,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\omphile\\source\\repos\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj",
       "projectName": "Student_Analyser.iOS",
-      "projectPath": "C:\\Users\\omphile\\source\\repos\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj",
+      "projectPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj",
       "packagesPath": "C:\\Users\\omphile\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\omphile\\source\\repos\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\obj\\",
+      "outputPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8705,8 +8705,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\omphile\\source\\repos\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj": {
-              "projectPath": "C:\\Users\\omphile\\source\\repos\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj"
+            "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj": {
+              "projectPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj"
             }
           }
         }

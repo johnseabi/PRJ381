@@ -1465,11 +1465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\omphile\\source\\repos\\Student_Analyser\\SqliteApp\\SqliteApp.csproj",
+      "projectUniqueName": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj",
       "projectName": "SqliteApp",
-      "projectPath": "C:\\Users\\omphile\\source\\repos\\Student_Analyser\\SqliteApp\\SqliteApp.csproj",
+      "projectPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj",
       "packagesPath": "C:\\Users\\omphile\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\omphile\\source\\repos\\Student_Analyser\\SqliteApp\\obj\\",
+      "outputPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\SqliteApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",

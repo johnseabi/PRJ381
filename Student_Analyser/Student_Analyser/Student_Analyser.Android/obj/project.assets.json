@@ -6769,11 +6769,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\omphile\\source\\repos\\Student_Analyser\\Student_Analyser\\Student_Analyser.Android\\Student_Analyser.Android.csproj",
+      "projectUniqueName": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.Android\\Student_Analyser.Android.csproj",
       "projectName": "Student_Analyser.Android",
-      "projectPath": "C:\\Users\\omphile\\source\\repos\\Student_Analyser\\Student_Analyser\\Student_Analyser.Android\\Student_Analyser.Android.csproj",
+      "projectPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.Android\\Student_Analyser.Android.csproj",
       "packagesPath": "C:\\Users\\omphile\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\omphile\\source\\repos\\Student_Analyser\\Student_Analyser\\Student_Analyser.Android\\obj\\",
+      "outputPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -6795,8 +6795,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\omphile\\source\\repos\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj": {
-              "projectPath": "C:\\Users\\omphile\\source\\repos\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj"
+            "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj": {
+              "projectPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj"
             }
           }
         }

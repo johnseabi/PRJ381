@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Student_Analyser.Views.Home.Tutor_view"
+             BackgroundColor="White"
+             Title="Request - Rate Tutor" >
+    <ContentPage.Content>
+        <ScrollView  Margin="15,25,15,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!--Page Icon-->
+                <StackLayout Grid.Row="0"
+                             HorizontalOptions="Start"
+                             Orientation="Horizontal">
+                    <Image Source="tutor_small.png"
+                           HorizontalOptions="Start"/>
+                    <Label Text="Request a Tutor" 
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           FontSize="Large" 
+                           FontAttributes="Bold"/>
+                </StackLayout>
+                
+                <!--Module Row 1 -->
+                <StackLayout Grid.Row="1"
+                             Orientation="Horizontal"
+                             HorizontalOptions="FillAndExpand">
+                    
+                    <Picker Title="Year"
+                            FontSize="Medium"
+                            BackgroundColor="White"
+                            WidthRequest="100">
+                        <!--Years-->
+                        <Picker.Items>
+                            <x:String>1st Year</x:String>
+                            <x:String>2nd Year</x:String>
+                            <x:String>3rd Year</x:String>
+                        </Picker.Items>
+                    </Picker>
+                    <Picker Title="Campus"
+                            FontSize="Medium"
+                            BackgroundColor="White"
+                            HorizontalOptions="FillAndExpand"
+                            >
+                        <!--List of campuses-->
+                        <Picker.Items>
+                            <x:String>Kempton Park Campus</x:String>
+                            <x:String>PE Campus</x:String>
+                            <x:String>Pretoria - Main Campus</x:String>
+                        </Picker.Items>
+                    </Picker>
+                </StackLayout>
+
+
+                <!--Modules Row 2 -->
+                <Picker Grid.Row="2"
+                        Title="Module"
+                        FontSize="Medium"
+                        BackgroundColor="White"
+                        HorizontalOptions="FillAndExpand">
+                    
+                    <!--These should be sourced from a list binding-->
+                    <Picker.Items>
+                        <x:String>Database Development 281</x:String>
+                        <x:String>Programming 181</x:String>
+                        <x:String>Programing 281</x:String>
+                    </Picker.Items>
+                </Picker>
+
+                <!--Submit Button1 Row 3-->
+                <Button Grid.Row="3"
+                        Text="Submit"
+                        BackgroundColor="#EB2BC9"
+                        TextColor="White"
+                        CornerRadius="25"
+                        FontSize="Medium"
+                        Margin="0,20,0,20"
+                        HorizontalOptions="EndAndExpand"/>
+
+                <!--Label Devider Row 4-->
+                <Label  Grid.Row="4"
+                        BackgroundColor="Black"
+                        HorizontalOptions="FillAndExpand"
+                        HeightRequest="1"
+                        Margin="0,15,0,15"
+                        />
+
+                <!--Rate a tutor-->
+                <!--Row 6-->
+                <StackLayout Grid.Row="6"
+                             HorizontalOptions="Start"
+                             Orientation="Horizontal">
+                    <Image Source="rate_a_tutor.png"
+                           HorizontalOptions="Start"/>
+                    <Label Text="Rate a Tutor" 
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           FontSize="Large"
+                           FontAttributes="Bold"/>
+                </StackLayout>
+                
+                <!--Row 7-->
+
+                <Picker Grid.Row="7"
+                        Title="Previous Sessions"
+                        FontSize="Medium"
+                        BackgroundColor="White"
+                        HorizontalOptions="FillAndExpand">
+
+                    <!--These should be sourced from a list binding-->
+                    <Picker.Items>
+                        <x:String>DBD281.576333</x:String>
+                        <x:String>PRG181.567456</x:String>
+                        <x:String>PRG281.587234</x:String>
+                    </Picker.Items>
+                </Picker>
+                
+                <!--Row 8-->
+                <StackLayout Grid.Row="8"
+                             Orientation="Horizontal"
+                             HorizontalOptions="FillAndExpand">
+                    <Label Text="Rate: "
+                           FontSize="Medium"
+                           Margin="2,0,0,0"
+                           />
+                    <Slider x:Name="Slider_Rate"
+                            MinimumTrackColor="Red"
+                            Minimum="0"
+                            Maximum="10"
+                            Value="5"
+                            MaximumTrackColor="#2480FA"
+                            WidthRequest="200"
+                            ValueChanged="SliderValueChanged"/>
+                    <Label Text="{Binding Source={x:Reference Slider_Rate}, Path=Value}" 
+                           x:Name="Rate"
+                           FontSize="Large"
+                           HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+
+                <!--Feed back-->
+                <Entry Grid.Row="9"
+                       Placeholder="Feedback (Optional)"
+                       FontSize="Medium">
+                    
+                </Entry>
+                <!--Submit button 2-->
+                <Button Grid.Row="10"
+                       Text="Submit"
+                       BackgroundColor="#EB2BC9"
+                       CornerRadius="25"
+                        TextColor="White"
+                        FontSize="Medium"
+                        Margin="0,20,0,20"
+                       HorizontalOptions="EndAndExpand"/>
+            </Grid> 
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

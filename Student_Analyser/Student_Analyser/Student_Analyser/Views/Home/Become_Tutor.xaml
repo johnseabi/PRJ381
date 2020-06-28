@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Student_Analyser.Views.Home.Become_Tutor"
+             BackgroundColor="White" Title="Tutorship Application"
+             >
+    <ContentPage.Content>
+        <ScrollView Margin="15,25,15,0"
+                    > 
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <!--Page Icon-->
+                <!--Row 0-->
+                <StackLayout Grid.Row="0"
+                             HorizontalOptions="Start"
+                             Orientation="Horizontal">
+                    <Image Source="be_a_tutor_small.png"
+                           HorizontalOptions="Start"/>
+                    <Label Text="Become a Tutor" 
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"
+                           FontFamily="Century Gothic"
+                           FontSize="22"
+                           TextColor="Black"/>
+                </StackLayout>
+                
+                <!--Row 1-->
+                <StackLayout Grid.Row="1"
+                             HorizontalOptions="Start"
+                             Orientation="Vertical">
+                    <Label Text="To become a tutor you should:" 
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center"
+                           FontFamily="Century Gothic"
+                           FontSize="Medium"
+                           TextColor="Black"/>
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="1. Have done and passed the module."/>
+                        <Label Text="2. Be a full time student."/>
+                        <Label Text="3. Be a second or third year student."/>
+                    </StackLayout>
+                </StackLayout>
+                
+                <!--Full name-->
+                <Entry Grid.Row="2"
+                       Placeholder="Full Name"
+                       BackgroundColor="White"
+                       HorizontalOptions="FillAndExpand"/>
+                
+                <!--Module-->
+                <!--Modules should be suorced from a list-->
+                <Entry Grid.Row="3"
+                       Placeholder="Module"
+                       BackgroundColor="White"
+                       HorizontalOptions="FillAndExpand"/>
+                
+                <!--Campus-->
+                <Picker Grid.Row="4"
+                       Title="Campus"
+                       BackgroundColor="White"
+                       HorizontalOptions="FillAndExpand">
+                    <!--List of campuses-->
+                    <Picker.Items>
+                        <x:String>Kempton Park Campus</x:String>
+                        <x:String>PE Campus</x:String>
+                        <x:String>Pretoria - Main Campus</x:String>
+                    </Picker.Items>
+                </Picker>
+                
+                <!--Campus-->
+                <Editor x:Name="motivationEditor"
+                        Grid.Row="5"
+                        HeightRequest="150"
+                        Placeholder="Motivation (max 150 charecters)"
+                        BackgroundColor="White"
+                        HorizontalOptions="FillAndExpand"
+                        TextChanged="MotivationEditorTextChanged"
+                        />
+                
+                <!--Submit button-->
+                <Button Grid.Row="6"
+                       Text="Submit"
+                       BackgroundColor="#EB2BC9"
+                       CornerRadius="25"
+                        TextColor="White"
+                        FontSize="Large"
+                        Margin="0,15,0,5"
+                       HorizontalOptions="FillAndExpand"
+                        Clicked="submitBtnClicked"/>
+            </Grid>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

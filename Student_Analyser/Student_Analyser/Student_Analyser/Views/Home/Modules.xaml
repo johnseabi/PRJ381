@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Student_Analyser.Views.Home.Modules"
+             Title="Modules" BackgroundColor="Black">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <ListView x:Name="listOfModules" BindingContext="{Binding .}"
+                      BackgroundColor="WhiteSmoke">
+                <ListView.RowHeight>
+                    <OnPlatform x:TypeArguments="x:Int32"
+                                iOS="80"
+                                Android ="80"/>
+                </ListView.RowHeight>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ContentView Padding="2">
+                                <StackLayout Orientation="Horizontal">
+                                    <Image x:Name="boxView"
+                                                 Source="{Binding Path}"
+                                                 WidthRequest="50"
+                                                 HeightRequest="50"/>
+                                    <Label Text="{Binding Name}"
+                                               FontSize="22"
+                                               VerticalOptions="StartAndExpand"/>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="AVG: "
+                                                   FontSize="22"
+                                                   VerticalOptions="StartAndExpand"/>
+                                        <Label Text="{Binding Mark} "
+                                               FontSize="22"
+                                               VerticalOptions="StartAndExpand" />
+                                        <Label Text="%"
+                                                   FontSize="22"
+                                                   VerticalOptions="StartAndExpand"/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </ContentView>
+                            <ViewCell.ContextActions>
+                                <MenuItem Text="View Details"
+                                          Command="{Binding ViewDetailsCommand}"/>
+                                <MenuItem Text="Move to top"/>
+                                <MenuItem Text="Move to bottom"/>
+                            </ViewCell.ContextActions>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

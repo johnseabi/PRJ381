@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Student_Analyser.Views.Home.About"
+             BackgroundColor="White" NavigationPage.HasBackButton="True"
+             Title="About">
+    <ContentPage.Content>
+        <!--Add Style for the page-->
+        <StackLayout Orientation="Vertical" VerticalOptions="Center" BackgroundColor="#FFFFFF">
+            <Label Text="Stuudent Analyser"
+                VerticalOptions="Center" 
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                HorizontalOptions="Center" />
+            <Label Text="Version 1.0.0" VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+            <Image Source="about_icon.png" VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   Margin="0,15,0,15"/>
+            <Label Text="&#169; 2020 - 2022" VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+            <Label Text="Developed by students" VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+            <Label Text="For students" VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+            <Button Text="LICENSES" BackgroundColor="White"
+                    TextColor="#CBDF82"
+                    HorizontalOptions="CenterAndExpand"
+                    CornerRadius="25"
+                    Clicked="LicenseClicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,9 @@
+D:\Android\Student_Analyser\SqliteApp\bin\Debug\netstandard2.0\SqliteApp.deps.json
+D:\Android\Student_Analyser\SqliteApp\bin\Debug\netstandard2.0\SqliteApp.dll
+D:\Android\Student_Analyser\SqliteApp\bin\Debug\netstandard2.0\SqliteApp.pdb
+D:\Android\Student_Analyser\SqliteApp\obj\Debug\netstandard2.0\SqliteApp.csprojAssemblyReference.cache
+D:\Android\Student_Analyser\SqliteApp\obj\Debug\netstandard2.0\SqliteApp.csproj.CoreCompileInputs.cache
+D:\Android\Student_Analyser\SqliteApp\obj\Debug\netstandard2.0\SqliteApp.AssemblyInfoInputs.cache
+D:\Android\Student_Analyser\SqliteApp\obj\Debug\netstandard2.0\SqliteApp.AssemblyInfo.cs
+D:\Android\Student_Analyser\SqliteApp\obj\Debug\netstandard2.0\SqliteApp.dll
+D:\Android\Student_Analyser\SqliteApp\obj\Debug\netstandard2.0\SqliteApp.pdb

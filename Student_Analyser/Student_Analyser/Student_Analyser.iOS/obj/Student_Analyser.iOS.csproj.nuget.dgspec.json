@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj": {}
+    "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj": {
+    "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\iOSClassLibrary\\iOSClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj",
-        "projectName": "Student_Analyser.iOS",
-        "projectPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj",
-        "packagesPath": "C:\\Users\\omphile\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\obj\\",
+        "projectUniqueName": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\iOSClassLibrary\\iOSClassLibrary.csproj",
+        "projectName": "iOSClassLibrary",
+        "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\iOSClassLibrary\\iOSClassLibrary.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\iOSClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\omphile\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -26,15 +26,117 @@
           "xamarinios10"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\omphile\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.TestCloud.Agent": {
+              "target": "Package",
+              "version": "[0.21.7, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj",
+        "projectName": "SqliteApp",
+        "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj",
+        "projectName": "Student_Analyser.iOS",
+        "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj": {
-                "projectPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj"
+              "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\iOSClassLibrary\\iOSClassLibrary.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\iOSClassLibrary\\iOSClassLibrary.csproj"
+              },
+              "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj"
+              },
+              "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj"
               }
             }
           }
@@ -78,21 +180,21 @@
         }
       }
     },
-    "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj": {
+    "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj",
         "projectName": "Student_Analyser",
-        "projectPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj",
-        "packagesPath": "C:\\Users\\omphile\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\obj\\",
+        "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\omphile\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -100,9 +202,7 @@
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\omphile\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netstandard2.0": {

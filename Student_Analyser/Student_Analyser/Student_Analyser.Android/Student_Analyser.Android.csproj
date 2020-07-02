@@ -123,6 +123,14 @@
     <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\AndroidClassLibrary\AndroidClassLibrary.csproj">
+      <Project>{f5a51bdb-ab9f-46ec-8480-e6b77ed267a7}</Project>
+      <Name>AndroidClassLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SqliteApp\SqliteApp.csproj">
+      <Project>{27bbd048-faf4-4867-9731-5fd5b153a9b2}</Project>
+      <Name>SqliteApp</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Student_Analyser\Student_Analyser.csproj">
       <Project>{E504B9A4-F918-4A44-AFA4-43C58ECC9B5C}</Project>
       <Name>Student_Analyser</Name>

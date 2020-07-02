@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj": {}
+    "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj": {
+    "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj",
+        "projectUniqueName": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj",
         "projectName": "SqliteApp",
-        "projectPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj",
-        "packagesPath": "C:\\Users\\omphile\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\SqliteApp\\obj\\",
+        "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\omphile\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -26,9 +26,7 @@
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\omphile\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netstandard2.0": {

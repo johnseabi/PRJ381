@@ -33,6 +33,7 @@
                        BackgroundColor="White"
                        HorizontalOptions="FillAndExpand"
                        />
+                <EditText/>
                 <Entry Grid.Row="2"
                        Placeholder="Password"
                        BackgroundColor="White"

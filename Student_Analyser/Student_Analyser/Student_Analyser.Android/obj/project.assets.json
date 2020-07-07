@@ -15,19 +15,6 @@
           "bin/placeholder/AndroidClassLibrary.dll": {}
         }
       },
-      "SqliteApp/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Sqlite": "3.1.4"
-        },
-        "compile": {
-          "bin/placeholder/SqliteApp.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SqliteApp.dll": {}
-        }
-      },
       "Student_Analyser/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -54,11 +41,6 @@
       "path": "../../AndroidClassLibrary/AndroidClassLibrary.csproj",
       "msbuildProject": "../../AndroidClassLibrary/AndroidClassLibrary.csproj"
     },
-    "SqliteApp/1.0.0": {
-      "type": "project",
-      "path": "../../SqliteApp/SqliteApp.csproj",
-      "msbuildProject": "../../SqliteApp/SqliteApp.csproj"
-    },
     "Student_Analyser/1.0.0": {
       "type": "project",
       "path": "../Student_Analyser/Student_Analyser.csproj",
@@ -70,7 +52,6 @@
       "AndroidClassLibrary >= 1.0.0",
       "Microcharts.Forms >= 0.8.5-pre",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.4",
-      "SqliteApp >= 1.0.0",
       "Student_Analyser >= 1.0.0",
       "Syncfusion.Xamarin.SfChart >= 18.1.0.55",
       "Xam.Plugins.Forms.ImageCircle >= 3.1.1.1-beta",
@@ -118,9 +99,6 @@
           "projectReferences": {
             "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\AndroidClassLibrary\\AndroidClassLibrary.csproj": {
               "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\AndroidClassLibrary\\AndroidClassLibrary.csproj"
-            },
-            "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj": {
-              "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj"
             },
             "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj": {
               "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj"

@@ -45,63 +45,6 @@
         }
       }
     },
-    "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj",
-        "projectName": "SqliteApp",
-        "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netstandard2.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
-        },
-        "frameworks": {
-          "netstandard2.0": {
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netstandard2.0": {
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[3.1.4, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461"
-          ],
-          "assetTargetFallback": true,
-          "warn": true
-        }
-      }
-    },
     "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -131,9 +74,6 @@
             "projectReferences": {
               "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\iOSClassLibrary\\iOSClassLibrary.csproj": {
                 "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\iOSClassLibrary\\iOSClassLibrary.csproj"
-              },
-              "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj": {
-                "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj"
               },
               "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj": {
                 "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj"

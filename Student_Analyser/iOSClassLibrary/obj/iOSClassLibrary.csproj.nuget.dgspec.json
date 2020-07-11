@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\iOSClassLibrary\\iOSClassLibrary.csproj": {}
+    "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\iOSClassLibrary\\iOSClassLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\iOSClassLibrary\\iOSClassLibrary.csproj": {
+    "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\iOSClassLibrary\\iOSClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\iOSClassLibrary\\iOSClassLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\iOSClassLibrary\\iOSClassLibrary.csproj",
         "projectName": "iOSClassLibrary",
-        "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\iOSClassLibrary\\iOSClassLibrary.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\iOSClassLibrary\\obj\\",
+        "projectPath": "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\iOSClassLibrary\\iOSClassLibrary.csproj",
+        "packagesPath": "C:\\Users\\omphile\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\iOSClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\omphile\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -26,7 +26,9 @@
           "xamarinios10"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\omphile\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "xamarinios10": {

@@ -5304,6 +5304,8 @@ containing a value of this type.
         public static final int launcher_foreground=0x7f030002;
     }
     public static final class string {
+        public static final int ApplicationName=0x7f0c005b;
+        public static final int Hello=0x7f0c005a;
         public static final int abc_action_bar_home_description=0x7f0c0018;
         public static final int abc_action_bar_up_description=0x7f0c0019;
         public static final int abc_action_menu_overflow_description=0x7f0c001a;
@@ -5350,7 +5352,7 @@ containing a value of this type.
         public static final int fab_transformation_scrim_behavior=0x7f0c0044;
         public static final int fab_transformation_sheet_behavior=0x7f0c0045;
         public static final int hide_bottom_view_on_scroll_behavior=0x7f0c0046;
-        public static final int library_name=0x7f0c005a;
+        public static final int library_name=0x7f0c005c;
         public static final int mr_button_content_description=0x7f0c0000;
         public static final int mr_cast_button_connected=0x7f0c0001;
         public static final int mr_cast_button_connecting=0x7f0c0002;

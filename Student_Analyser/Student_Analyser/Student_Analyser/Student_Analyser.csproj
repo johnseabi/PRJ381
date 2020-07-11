@@ -11,25 +11,33 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="AnalyzerDB.db3" />
     <None Remove="LICENSES.txt" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="AnalyzerDB.db3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="LICENSES.txt" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="FluentValidation" Version="9.0.0" />
     <PackageReference Include="Microcharts.Forms" Version="0.8.5-pre" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="3.1.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.4" />
+    <PackageReference Include="PCLStorage" Version="1.0.2" />
+    <PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
+    <PackageReference Include="SQLite.Net-PCL" Version="3.1.1" />
+    <PackageReference Include="SQLite.Net.Core-PCL" Version="3.1.1" />
     <PackageReference Include="Syncfusion.Xamarin.SfChart" Version="18.1.0.55" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
+    <PackageReference Include="System.Data.SQLite.Core" Version="1.0.113.1" />
     <PackageReference Include="Xam.Plugins.Forms.ImageCircle" Version="3.1.1.1-beta" />
     <PackageReference Include="Xamarin.Forms" Version="4.7.0.848-pre3" />
     <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Model\" />
-    <Folder Include="Controller\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -70,6 +78,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Home\Modules.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Home\SplashScreen.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Home\Tutor_view.xaml">

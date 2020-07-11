@@ -29,28 +29,35 @@
                            HorizontalOptions="Center"/>
                 </StackLayout>
                 <Entry Grid.Row="1"
-                       Placeholder="Name(s)"
+                       x:Name="username"
+                       Placeholder="Username"
                        BackgroundColor="White"
                        HorizontalOptions="FillAndExpand"
                        />
                 <Entry Grid.Row="2"
-                       Placeholder="Email"
+                       x:Name="schoolEmail"
+                       Placeholder="School Email"
                        BackgroundColor="White"
                        HorizontalOptions="FillAndExpand"
                        />
                 <Entry Grid.Row="3"
+                       x:Name="password"
                        Placeholder="Password"
                        BackgroundColor="White"
                        HorizontalOptions="FillAndExpand"
                        IsPassword="True"
                        />
                 <Entry Grid.Row="4"
+                       x:Name="confirmPassword"
                        Placeholder="Confirm Password"
                        BackgroundColor="White"
                        HorizontalOptions="FillAndExpand"
                        IsPassword="True"
+                       TextChanged="ConfirmPasswordTextChanged"
                        />
                 <Button Grid.Row="5"
+                        x:Name="btnRegister"
+                        Clicked="SignupValidation_ButtonClicked"
                        Text="Register"
                        BackgroundColor="#2480FA"
                        HorizontalOptions="FillAndExpand"

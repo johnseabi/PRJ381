@@ -27,6 +27,10 @@ namespace Student_Analyser.Droid
 		public static void UpdateIdValues()
 		{
 			global::Microcharts.Droid.Resource.String.library_name = global::Student_Analyser.Droid.Resource.String.library_name;
+			global::PCLStorage.Resource.String.ApplicationName = global::Student_Analyser.Droid.Resource.String.ApplicationName;
+			global::PCLStorage.Resource.String.Hello = global::Student_Analyser.Droid.Resource.String.Hello;
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.ApplicationName = global::Student_Analyser.Droid.Resource.String.ApplicationName;
+			global::SQLite.Net.Platform.XamarinAndroid.Resource.String.Hello = global::Student_Analyser.Droid.Resource.String.Hello;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar1 = global::Student_Analyser.Droid.Resource.Drawable.Avatar1;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar10 = global::Student_Analyser.Droid.Resource.Drawable.Avatar10;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar11 = global::Student_Analyser.Droid.Resource.Drawable.Avatar11;
@@ -10532,6 +10536,12 @@ namespace Student_Analyser.Droid
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f0c005b
+			public const int ApplicationName = 2131492955;
+			
+			// aapt resource value: 0x7f0c005a
+			public const int Hello = 2131492954;
+			
 			// aapt resource value: 0x7f0c0018
 			public const int abc_action_bar_home_description = 2131492888;
 			
@@ -10670,8 +10680,8 @@ namespace Student_Analyser.Droid
 			// aapt resource value: 0x7f0c0046
 			public const int hide_bottom_view_on_scroll_behavior = 2131492934;
 			
-			// aapt resource value: 0x7f0c005a
-			public const int library_name = 2131492954;
+			// aapt resource value: 0x7f0c005c
+			public const int library_name = 2131492956;
 			
 			// aapt resource value: 0x7f0c0000
 			public const int mr_button_content_description = 2131492864;

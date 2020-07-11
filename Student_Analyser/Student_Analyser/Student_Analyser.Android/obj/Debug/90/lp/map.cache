@@ -1,3 +1,5 @@
+Dapper
+FluentValidation
 FormsViewGroup
 ImageCircle.Forms.Plugin
 Microcharts
@@ -23,9 +25,15 @@ Microsoft.Extensions.Logging.Abstractions
 Microsoft.Extensions.Logging
 Microsoft.Extensions.Options
 Microsoft.Extensions.Primitives
+PCLStorage.Abstractions
+PCLStorage
 SkiaSharp
 SkiaSharp.Views.Android
 SkiaSharp.Views.Forms
+SQLite-net
+SQLite.Net
+SQLite.Net.Platform.XamarinAndroid
+SqliteApp
 SQLitePCLRaw.batteries_v2
 SQLitePCLRaw.core
 SQLitePCLRaw.lib.e_sqlite3.android
@@ -38,6 +46,7 @@ Syncfusion.SfChart.XForms.Android
 Syncfusion.SfChart.XForms
 System.Buffers
 System.Collections.Immutable
+System.Data.SQLite
 System.Diagnostics.DiagnosticSource
 System.Memory
 System.Runtime.CompilerServices.Unsafe

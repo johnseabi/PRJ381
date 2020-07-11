@@ -1,9 +1,8 @@
 ﻿using Student_Analyser.Views.Forms;
 using Student_Analyser.Views.Home;
 using System;
-using System.Timers;
+using System.Collections.Generic;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace Student_Analyser
 {
@@ -18,6 +17,25 @@ namespace Student_Analyser
         /// Integer variable, holds the total time in milliseconds
         /// </summary>
         static double timeInMilliSeconds;
+
+        public static List<User_Account> users = null;
+
+        /// <summary>
+        /// This property allows Xamarin.Forms components to call data retrieval and 
+        /// manipulation methods on the Database instance in response to user interaction
+        /// </summary>
+        //static CreateDatabase database;
+        //public static CreateDatabase Database
+        //{
+        //    get
+        //    {
+        //        if(database == null)
+        //        {
+        //            database = new CreateDatabase();
+        //        }
+        //        return database;
+        //    }
+        //}
 
         public App()
         {

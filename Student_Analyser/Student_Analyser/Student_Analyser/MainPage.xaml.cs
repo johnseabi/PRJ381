@@ -1,4 +1,5 @@
-﻿using Student_Analyser.Views.Home;
+﻿using SQLite;
+using Student_Analyser.Views.Home;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,9 +15,13 @@ namespace Student_Analyser
     [DesignTimeVisible(true)]
     public partial class MainPage : ContentPage
     {
+        public SQLiteConnection conn;
+        public User_Account regmodel;
         public MainPage()
         {
             InitializeComponent();
+            conn = DependencyService.Get<ISqlite>().GetConnection();
+            conn.CreateTable<User_Account>();
         }
     }
 }

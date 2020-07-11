@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj": {}
+    "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj": {
+    "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj",
         "projectName": "Student_Analyser.iOS",
-        "projectPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj",
+        "projectPath": "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\Student_Analyser.iOS.csproj",
         "packagesPath": "C:\\Users\\omphile\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\obj\\",
+        "outputPath": "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -33,8 +33,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj": {
-                "projectPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj"
+              "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj": {
+                "projectPath": "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj"
               }
             }
           }
@@ -43,17 +43,45 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microcharts.Forms": {
               "target": "Package",
               "version": "[0.8.5-pre, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.1.4, )"
             },
+            "PCLStorage": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "SQLite.Net-PCL": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "SQLite.Net.Core-PCL": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Syncfusion.Xamarin.SfChart": {
               "target": "Package",
               "version": "[18.1.0.55, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",
@@ -62,6 +90,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.7.0.848-pre3, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
             }
           }
         }
@@ -78,14 +110,14 @@
         }
       }
     },
-    "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj": {
+    "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj",
+        "projectUniqueName": "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj",
         "projectName": "Student_Analyser",
-        "projectPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj",
+        "projectPath": "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj",
         "packagesPath": "C:\\Users\\omphile\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omphile\\Source\\Repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\obj\\",
+        "outputPath": "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\ProgramData\\Xamarin\\NuGet\\",
@@ -118,9 +150,21 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Microcharts.Forms": {
               "target": "Package",
               "version": "[0.8.5-pre, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
@@ -132,9 +176,29 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "PCLStorage": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "SQLite.Net-PCL": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "SQLite.Net.Core-PCL": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Syncfusion.Xamarin.SfChart": {
               "target": "Package",
               "version": "[18.1.0.55, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.113.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
             },
             "Xam.Plugins.Forms.ImageCircle": {
               "target": "Package",
@@ -147,6 +211,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.7.0.848-pre3, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
             }
           },
           "imports": [

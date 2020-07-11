@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Data.SQLite;
 using ImageCircle.Forms.Plugin.iOS;
 
 using Foundation;
 using UIKit;
+using SQLite.Net.Platform.XamarinIOS;
 
 namespace Student_Analyser.iOS
 {
@@ -14,6 +16,7 @@ namespace Student_Analyser.iOS
     [Register("AppDelegate")]
     public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
     {
+        public static SQLiteConnection connection;
         //
         // This method is invoked when the application has loaded and is ready to run. In this 
         // method you should instantiate the window, load the UI into it and then make the window
@@ -24,6 +27,9 @@ namespace Student_Analyser.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+
+            connection= FileAccessHelper.DBConnection();
+
             LoadApplication(new App());
 
             ImageCircleRenderer.Init();

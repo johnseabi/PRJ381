@@ -29,17 +29,20 @@
                            HorizontalOptions="Center"/>
                 </StackLayout>
                 <Entry Grid.Row="1"
-                       Placeholder="Name"
+                       Placeholder="Username"
+                       x:Name="username"
                        BackgroundColor="White"
                        HorizontalOptions="FillAndExpand"
                        />
                 <Entry Grid.Row="2"
                        Placeholder="Password"
+                       x:Name="password"
                        BackgroundColor="White"
                        HorizontalOptions="FillAndExpand"
                        IsPassword="True"
                        />
                 <Button Grid.Row="3"
+                        x:Name="forgotPasswordBtn"
                        Text="Forgot Password?"
                        BackgroundColor="White"
                        HorizontalOptions="EndAndExpand"
@@ -70,6 +73,7 @@
                            HorizontalOptions="Center" 
                            Margin="0,20,0,20"/>
                     <Button Text="Sign Up"
+                            x:Name="signUpBtn"
                             FontSize="Medium"
                             HorizontalOptions="FillAndExpand"
                             BackgroundColor="White"

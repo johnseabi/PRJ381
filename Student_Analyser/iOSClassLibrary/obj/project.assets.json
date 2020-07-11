@@ -1,0 +1,82 @@
+{
+  "version": 3,
+  "targets": {
+    "Xamarin.iOS,Version=v1.0": {
+      "Xamarin.TestCloud.Agent/0.21.7": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS/Calabash.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS/Calabash.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Xamarin.TestCloud.Agent/0.21.7": {
+      "sha512": "mubMu3vnMkY62KQ3u6dKLFBGHlf2iKt1qU+N7ptAqi+rKpC+Zcy4W1sH0HQdP6YtXuhAkQt1u8LHJMGOd2qkYA==",
+      "type": "package",
+      "path": "xamarin.testcloud.agent/0.21.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "epl-v10.html",
+        "lib/Xamarin.iOS/Calabash.dll",
+        "xamarin.testcloud.agent.0.21.7.nupkg.sha512",
+        "xamarin.testcloud.agent.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "Xamarin.iOS,Version=v1.0": [
+      "Xamarin.TestCloud.Agent >= 0.21.7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\lenovo\\.nuget\\packages\\": {},
+    "C:\\ProgramData\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\iOSClassLibrary\\iOSClassLibrary.csproj",
+      "projectName": "iOSClassLibrary",
+      "projectPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\iOSClassLibrary\\iOSClassLibrary.csproj",
+      "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lenovo\\Documents\\GitHub\\PRJ381\\Student_Analyser\\iOSClassLibrary\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\ProgramData\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "xamarinios10"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "xamarinios10": {
+        "dependencies": {
+          "Xamarin.TestCloud.Agent": {
+            "target": "Package",
+            "version": "[0.21.7, )"
+          }
+        }
+      }
+    }
+  }
+}

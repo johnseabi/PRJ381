@@ -37,7 +37,6 @@ C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_A
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\android\assets\SQLite-net.dll
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\android\assets\SQLite.Net.dll
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\android\assets\SQLite.Net.Platform.XamarinAndroid.dll
-C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\android\assets\SqliteApp.dll
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\android\assets\SQLitePCLRaw.batteries_v2.dll
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\android\assets\SQLitePCLRaw.core.dll
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\android\assets\SQLitePCLRaw.lib.e_sqlite3.android.dll

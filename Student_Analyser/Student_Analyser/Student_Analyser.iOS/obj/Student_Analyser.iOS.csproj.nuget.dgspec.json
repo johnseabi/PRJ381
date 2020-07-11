@@ -35,6 +35,9 @@
             "projectReferences": {
               "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj": {
                 "projectPath": "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj"
+              },
+              "D:\\Belgium Campus ITversity\\2020\\PRJ381\\BusinessLogic\\iOSClassLibrary\\iOSClassLibrary.csproj": {
+                "projectPath": "D:\\Belgium Campus ITversity\\2020\\PRJ381\\BusinessLogic\\iOSClassLibrary\\iOSClassLibrary.csproj"
               }
             }
           }
@@ -222,6 +225,49 @@
           ],
           "assetTargetFallback": true,
           "warn": true
+        }
+      }
+    },
+    "D:\\Belgium Campus ITversity\\2020\\PRJ381\\BusinessLogic\\iOSClassLibrary\\iOSClassLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Belgium Campus ITversity\\2020\\PRJ381\\BusinessLogic\\iOSClassLibrary\\iOSClassLibrary.csproj",
+        "projectName": "iOSClassLibrary",
+        "projectPath": "D:\\Belgium Campus ITversity\\2020\\PRJ381\\BusinessLogic\\iOSClassLibrary\\iOSClassLibrary.csproj",
+        "packagesPath": "C:\\Users\\omphile\\.nuget\\packages\\",
+        "outputPath": "D:\\Belgium Campus ITversity\\2020\\PRJ381\\BusinessLogic\\iOSClassLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\omphile\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\omphile\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.TestCloud.Agent": {
+              "target": "Package",
+              "version": "[0.21.7, )"
+            }
+          }
         }
       }
     }

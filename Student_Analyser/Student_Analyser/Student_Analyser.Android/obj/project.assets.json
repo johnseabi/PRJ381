@@ -2055,27 +2055,6 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "SqliteApp/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "dependencies": {
-          "Dapper": "2.0.35",
-          "FluentValidation": "9.0.0",
-          "Microsoft.Data.Sqlite": "3.1.5",
-          "Microsoft.EntityFrameworkCore.Sqlite": "3.1.4",
-          "PCLStorage": "1.0.2",
-          "SQLite.Net-PCL": "3.1.1",
-          "SQLite.Net.Core-PCL": "3.1.1",
-          "Student_Analyser": "1.0.0",
-          "sqlite-net-pcl": "1.7.335"
-        },
-        "compile": {
-          "bin/placeholder/SqliteApp.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SqliteApp.dll": {}
-        }
-      },
       "Student_Analyser/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -7285,11 +7264,6 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "SqliteApp/1.0.0": {
-      "type": "project",
-      "path": "../../SqliteApp/SqliteApp.csproj",
-      "msbuildProject": "../../SqliteApp/SqliteApp.csproj"
-    },
     "Student_Analyser/1.0.0": {
       "type": "project",
       "path": "../Student_Analyser/Student_Analyser.csproj",
@@ -7306,7 +7280,6 @@
       "PCLStorage >= 1.0.2",
       "SQLite.Net-PCL >= 3.1.1",
       "SQLite.Net.Core-PCL >= 3.1.1",
-      "SqliteApp >= 1.0.0",
       "Student_Analyser >= 1.0.0",
       "Syncfusion.Xamarin.SfChart >= 18.1.0.55",
       "System.Data.SqlClient >= 4.8.1",
@@ -7356,9 +7329,6 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj": {
-              "projectPath": "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\SqliteApp\\SqliteApp.csproj"
-            },
             "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj": {
               "projectPath": "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj"
             }

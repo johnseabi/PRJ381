@@ -96,3 +96,4 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 SqliteApp
+FluentValidation

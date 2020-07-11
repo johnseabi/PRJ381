@@ -443,7 +443,6 @@ C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_A
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\build.props
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\adb.props
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\Student_Analyser.Android.csprojAssemblyReference.cache
-C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\libraryimports.cache.stamp
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\resourcepaths.cache
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\res.flag
@@ -840,10 +839,6 @@ C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_A
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\stamp\_CopyPdbFiles.stamp
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\bin\Debug\SqliteApp.pdb
-C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\linksrc\SqliteApp.dll
-C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\linksrc\SqliteApp.pdb
-C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\android\assets\SqliteApp.dll
-C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\android\assets\SqliteApp.pdb
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\bin\Debug\SqliteApp.dll
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\bin\Debug\AnalyzerDB.db3
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\linksrc\System.Data.SqlClient.dll

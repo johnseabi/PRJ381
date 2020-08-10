@@ -1,4 +1,5 @@
 Dapper
+FluentValidation
 FormsViewGroup
 ImageCircle.Forms.Plugin
 Microcharts
@@ -95,5 +96,14 @@ Xamarin.Forms.Core
 Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
-SqliteApp
-FluentValidation
+netstandard
+System.ObjectModel
+System.Threading.Tasks
+System.Collections
+System.Diagnostics.Debug
+System.ValueTuple
+System.Threading
+System.ComponentModel.Annotations
+System.Resources.ResourceManager
+System.Reflection.Extensions
+System.Collections.Concurrent

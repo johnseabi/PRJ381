@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
+﻿using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Forms;
-using System.Data.SqlClient;
-using Android.Widget;
 
 namespace Student_Analyser
 {
@@ -100,34 +95,21 @@ namespace Student_Analyser
             }
         }
 
-        public async static Task ResetPassword(string password, string newPassword, string email, List<User_Account> users)
+        public async static Task ResetPassword(string newPassword, string email)
         {
-            User_Account user = null;
-            foreach (var item in users)
-            {
-                if (item.Password == password && item.Email_address == email)
-                {
-                    user = item;
-                }
-            }
-
             try
             {
-                if (user != null)
+                using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
                 {
-                    using (SqlConnection connection = new SqlConnection(builder.ConnectionString))
+                    StringBuilder sb = new StringBuilder();
+                    sb.Append(@"UPDATE [dbo].[User] SET  password ='" + newPassword+ " WHERE Email = '" + email);
+
+                    string sql = sb.ToString();
+
+                    using (SqlCommand command = new SqlCommand(sql, connection))
                     {
-
-                        StringBuilder sb = new StringBuilder();
-                        sb.Append(@"UPDATE [dbo].[User] SET  password ='" + password+ " WHERE Email = '" + user.Email_address);
-
-                        string sql = sb.ToString();
-
-                        using (SqlCommand command = new SqlCommand(sql, connection))
-                        {
-                            connection.Open();
-                            await command.ExecuteNonQueryAsync();
-                        }
+                        connection.Open();
+                        await command.ExecuteNonQueryAsync();
                     }
                 }
             }

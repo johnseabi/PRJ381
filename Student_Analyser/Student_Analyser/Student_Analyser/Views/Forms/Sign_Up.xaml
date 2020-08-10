@@ -36,9 +36,10 @@
                        />
                 <Entry Grid.Row="2"
                        x:Name="schoolEmail"
-                       Placeholder="School Email"
+                       Placeholder="******@student.belgiumcampus.ac.za"
                        BackgroundColor="White"
                        HorizontalOptions="FillAndExpand"
+                       TextChanged="EmailTextChanged"
                        />
                 <Entry Grid.Row="3"
                        x:Name="password"

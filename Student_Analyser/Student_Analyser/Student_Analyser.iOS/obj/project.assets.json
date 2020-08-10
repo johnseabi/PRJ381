@@ -1377,28 +1377,6 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.TestCloud.Agent/0.21.7": {
-        "type": "package",
-        "compile": {
-          "lib/Xamarin.iOS/Calabash.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS/Calabash.dll": {}
-        }
-      },
-      "iOSClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "Xamarin.iOS,Version=v1.0",
-        "dependencies": {
-          "Xamarin.TestCloud.Agent": "0.21.7"
-        },
-        "compile": {
-          "bin/placeholder/iOSClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/iOSClassLibrary.dll": {}
-        }
-      },
       "Student_Analyser/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -2671,28 +2649,6 @@
         "build": {
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
-        }
-      },
-      "Xamarin.TestCloud.Agent/0.21.7": {
-        "type": "package",
-        "compile": {
-          "lib/Xamarin.iOS/Calabash.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS/Calabash.dll": {}
-        }
-      },
-      "iOSClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "Xamarin.iOS,Version=v1.0",
-        "dependencies": {
-          "Xamarin.TestCloud.Agent": "0.21.7"
-        },
-        "compile": {
-          "bin/placeholder/iOSClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/iOSClassLibrary.dll": {}
         }
       },
       "Student_Analyser/1.0.0": {
@@ -3976,28 +3932,6 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
-      "Xamarin.TestCloud.Agent/0.21.7": {
-        "type": "package",
-        "compile": {
-          "lib/Xamarin.iOS/Calabash.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS/Calabash.dll": {}
-        }
-      },
-      "iOSClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "Xamarin.iOS,Version=v1.0",
-        "dependencies": {
-          "Xamarin.TestCloud.Agent": "0.21.7"
-        },
-        "compile": {
-          "bin/placeholder/iOSClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/iOSClassLibrary.dll": {}
-        }
-      },
       "Student_Analyser/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -5277,28 +5211,6 @@
         "build": {
           "buildTransitive/Xamarin.Forms.props": {},
           "buildTransitive/Xamarin.Forms.targets": {}
-        }
-      },
-      "Xamarin.TestCloud.Agent/0.21.7": {
-        "type": "package",
-        "compile": {
-          "lib/Xamarin.iOS/Calabash.dll": {}
-        },
-        "runtime": {
-          "lib/Xamarin.iOS/Calabash.dll": {}
-        }
-      },
-      "iOSClassLibrary/1.0.0": {
-        "type": "project",
-        "framework": "Xamarin.iOS,Version=v1.0",
-        "dependencies": {
-          "Xamarin.TestCloud.Agent": "0.21.7"
-        },
-        "compile": {
-          "bin/placeholder/iOSClassLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/iOSClassLibrary.dll": {}
         }
       },
       "Student_Analyser/1.0.0": {
@@ -9726,25 +9638,6 @@
         "xamarin.forms.nuspec"
       ]
     },
-    "Xamarin.TestCloud.Agent/0.21.7": {
-      "sha512": "mubMu3vnMkY62KQ3u6dKLFBGHlf2iKt1qU+N7ptAqi+rKpC+Zcy4W1sH0HQdP6YtXuhAkQt1u8LHJMGOd2qkYA==",
-      "type": "package",
-      "path": "xamarin.testcloud.agent/0.21.7",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE",
-        "epl-v10.html",
-        "lib/Xamarin.iOS/Calabash.dll",
-        "xamarin.testcloud.agent.0.21.7.nupkg.sha512",
-        "xamarin.testcloud.agent.nuspec"
-      ]
-    },
-    "iOSClassLibrary/1.0.0": {
-      "type": "project",
-      "path": "D:\\Belgium Campus ITversity\\2020\\PRJ381\\BusinessLogic\\iOSClassLibrary\\iOSClassLibrary.csproj",
-      "msbuildProject": "D:\\Belgium Campus ITversity\\2020\\PRJ381\\BusinessLogic\\iOSClassLibrary\\iOSClassLibrary.csproj"
-    },
     "Student_Analyser/1.0.0": {
       "type": "project",
       "path": "../Student_Analyser/Student_Analyser.csproj",
@@ -9766,7 +9659,6 @@
       "System.Data.SqlClient >= 4.8.1",
       "Xamarin.Essentials >= 1.5.3.2",
       "Xamarin.Forms >= 4.7.0.848-pre3",
-      "iOSClassLibrary >= 1.0.0",
       "sqlite-net-pcl >= 1.7.335"
     ]
   },
@@ -9805,9 +9697,6 @@
           "projectReferences": {
             "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj": {
               "projectPath": "C:\\Users\\omphile\\source\\repos\\PRJ381\\Student_Analyser\\Student_Analyser\\Student_Analyser\\Student_Analyser.csproj"
-            },
-            "D:\\Belgium Campus ITversity\\2020\\PRJ381\\BusinessLogic\\iOSClassLibrary\\iOSClassLibrary.csproj": {
-              "projectPath": "D:\\Belgium Campus ITversity\\2020\\PRJ381\\BusinessLogic\\iOSClassLibrary\\iOSClassLibrary.csproj"
             }
           }
         }

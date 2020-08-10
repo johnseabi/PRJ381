@@ -1,0 +1,8 @@
+C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.iOS\obj\iPhone\Release\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.iOS\obj\iPhone\Release\actool\_PartialAppManifest.items
+C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.iOS\obj\iPhone\Release\actool\_BundleResourceWithLogicalName.items
+C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.iOS\obj\iPhone\Release\coremlc\_PartialAppManifest.items
+C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.iOS\obj\iPhone\Release\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.iOS\obj\iPhone\Release\optimized\
+C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.iOS\obj\iPhone\Release\Student_Analyser.iOS.csprojAssemblyReference.cache
+C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.iOS\obj\iPhone\Release\Student_Analyser.iOS.csproj.CoreCompileInputs.cache

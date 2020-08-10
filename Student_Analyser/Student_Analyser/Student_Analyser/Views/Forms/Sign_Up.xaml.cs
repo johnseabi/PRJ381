@@ -18,6 +18,7 @@ namespace Student_Analyser.Views.Forms
         public List<User_Account> users = new List<User_Account>();
         public SQLiteConnection conn;
         public static SQLiteDataAccess sqliteDataAccessObject = new SQLiteDataAccess();
+        string _email = null;
 
         public Sign_Up()
         {
@@ -52,6 +53,12 @@ namespace Student_Analyser.Views.Forms
             if (!((string.IsNullOrWhiteSpace(username.Text)) && (string.IsNullOrWhiteSpace(schoolEmail.Text))))
                 if (password.ToString() == confirmPassword.ToString())
                     btnRegister.IsEnabled = true;
+        }
+
+        private void EmailTextChanged(object obj, TextChangedEventArgs textChangedEventArgs)
+        {
+            //StringBuilder emailBuilder = new StringBuilder();
+             //schoolEmail.Text = emailBuilder.Append(schoolEmail.Text).ToString() + "@student.belgiumcampus.ac.za";
         }
 
         private async void SignupValidation_ButtonClicked(object sender, EventArgs e)

@@ -1,15 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Xml;
-
-using Foundation;
 using SQLite;
 using Student_Analyser.iOS;
-using UIKit;
-
 
 [assembly: Xamarin.Forms.Dependency(typeof(SQLiteAccess_iOS))]
 namespace Student_Analyser.iOS

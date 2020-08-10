@@ -15,9 +15,9 @@ namespace Student_Analyser.Views.Forms
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Log_In : ContentPage
     {
-        public User_Account user = new User_Account();
+        public static User_Account user = new User_Account();
         public List<User_Account> users = new List<User_Account>();
-        public SQLiteConnection conn;
+        public static SQLiteConnection conn;
         public static SQLiteDataAccess sqliteDataAccessObject = new SQLiteDataAccess();
 
         private static bool loggedInFlag;

@@ -846,6 +846,4 @@ C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_A
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\linksrc\FluentValidation.dll
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\android\assets\FluentValidation.dll
 C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\bin\Debug\Resources\AnalyzerDB.db3
-C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\android\assets\machine.config
-C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\stamp\_CompileToDalvik.stamp
-C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\stamp\_GeneratePackageManagerJava.stamp
+C:\Users\omphile\source\repos\PRJ381\Student_Analyser\Student_Analyser\Student_Analyser.Android\obj\Debug\90\_VerifyXamarinAndroidSupportVersions.stamp
